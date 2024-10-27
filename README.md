@@ -11,10 +11,10 @@ If client is disconnected, the server can connect to another client
 
 ### How to run
 1. Run the TCP server
-```./start -mode=tcp-server -ip=[ip]```
+```./app -mode=tcp-server -ip=[ip]```
 2. Run the TCP client
-```./start -mode=tcp-client -ip=[ip]```
+```./app -mode=tcp-client -ip=[ip]```
 3. Run the UDP client
-```./start -mode=udp-client -ip=[ip]```
+```./app -mode=udp-client -ip=[ip]```
 4. Run the UDP server
-```./start -mode=udp-server -ip=[ip]```
+```./app -mode=udp-server -ip=[ip]```
