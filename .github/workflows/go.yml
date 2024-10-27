@@ -23,3 +23,9 @@ jobs:
 
     - name: Build
       run: go build -v ./...
+      
+    - name: Upload build artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: go-build
+        path: build/app
